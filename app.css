@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Poppins, sans-serif;
 }
 
 header{
@@ -60,6 +61,50 @@ header{
 }
 
 
+
+/* hero section */
 .hero-section-wrapper{
-    margin-top: 2-00px;
+    margin: 200px 300px;
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.hero-text-and-btn{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-cont-wrapper>h1{
+    font-size: 48px;
+    line-height: 1.25;
+}
+
+#knowledge{
+    background-color: #0000FF;
+    color: white;
+    padding: 0px 5px;
+    
+}
+
+#getting-started{
+    margin-top: 50px !important;
+    border-left: #0000FF 2px solid;
+    padding-left: 20px;
+}
+
+
+
+.hero-illustration{
+    align-self: center;
+}
+
+
+.hero-illustration>img{
+    width: 500px;
+    border-radius: 25px;
+}
+
